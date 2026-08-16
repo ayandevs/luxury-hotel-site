@@ -1,0 +1,491 @@
+.header {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(105, 34, 4);
+    display: flex;
+}
+
+.left-header {
+    height: 100%;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 22px 0 0 30px;
+    line-height: 1.1;
+}
+
+.left-header h1 {
+    text-transform: uppercase;
+    font-family: tahoma;
+    font-size: 38px;
+    color: rgb(255, 197, 1);
+    font-weight: bold;
+}
+
+.left-header h1 span {
+    color: white;
+}
+
+.left-header p {
+    font-family: lucida console;
+    font-size: 20px;
+    color: white;
+    word-spacing: 2px;
+    letter-spacing: 15px;
+    margin-left: 4px;
+}
+
+.right-header {
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 22px 30px 0 0;
+    line-height: 1;
+    text-align: end;
+}
+
+.right-header img {
+    vertical-align: sub;
+    margin-right: 5px;
+}
+
+.right-header span {
+    text-transform: uppercase;
+    font-family: tahoma;
+    font-size: 38px;
+    color: white;
+    font-weight: bold;
+}
+
+.right-header p {
+    font-family: lucida console;
+    font-size: 25px;
+    color: rgb(255, 197, 1);
+}
+
+/* hero-section */
+
+.hero-section {
+    width: 100%;
+    height: 650px;
+    background-color: rgb(182, 59, 2);
+    box-sizing: border-box;
+    padding: 10px 18px;
+}
+
+.hero-page {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 10px;
+    position: relative;
+}
+
+.hero-img {
+    width: 100%;
+    height: 100%;
+}
+
+.left-arrow {
+    position: absolute;
+    top: 46%;
+    left: -10px;
+}
+
+.right-arrow {
+    position: absolute;
+    top: 46%;
+    right: -10px;
+}
+
+.scroll-dots {
+    height: 12%;
+    width: 22%;
+    background-color: white;
+    border: 0;
+    border-radius: 5px 5px 0 0;
+    position: absolute;
+    left: 40%;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.dot {
+    height: 40px;
+    width: 40px;
+    background-color: rgb(255, 216, 0);
+    border-radius: 50%;
+}
+
+.active {
+    background-color: rgb(200, 103, 2);
+    box-sizing: border-box;
+    border: 8px solid rgb(255, 216, 0);
+}
+
+/* details-section */
+
+.details-section {
+    height: 440px;
+    width: 100%;
+    background-color: rgb(182, 59, 2);
+    box-sizing: border-box;
+    padding: 10px 18px 28px;
+}
+
+.details {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    position: relative;
+}
+
+.left-content {
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 6px 0 0 20px;
+}
+
+.left-content h2 {
+    font-family: tahoma;
+    font-size: 32px;
+    color: black;
+}
+
+.left-content h2 span {
+    color: rgb(186, 11, 12);
+    font-size: 64px;
+}
+
+.left-content p {
+    font-family: calibri;
+    font-size: 26px;
+    margin-top: 16px;
+    line-height: 1.5;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+    color: #332e2e;
+}
+
+.right-content {
+    width: 47%;
+    height: 426px;
+    background: linear-gradient(to bottom, #F85000, #D24500, #A83701, #802700);
+    color: white;
+    box-sizing: border-box;
+    padding: 48px 0 0 20px;
+    position: absolute;
+    left: 52%;
+    top: -10px;
+    border-radius: 4;
+}
+
+.right-content h2 {
+    font-family: tahoma;
+    font-size: 28px;
+    text-transform: capitalize;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+}
+
+.right-content h2 span {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.check-points {
+    font-family: century gothic;
+    box-sizing: border-box;
+    padding-top: 15px;
+}
+
+.check-points p {
+    margin: 15px 0 8px 0;
+    font-size: 20px;
+}
+
+.check-points input {
+    width: 150px;
+}
+
+.check-points img {
+    vertical-align: bottom;
+    height: 22px;
+    margin-left: 6px;
+}
+
+.check-points select {
+    width: 45px;
+    height: 24px;
+}
+
+.adult {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.adult-left {
+    width: 65%;
+    height: 100%;
+}
+
+.adult-right {
+    width: 35%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 30px 35px 0 0;
+}
+
+.adult-right .learn {
+
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to bottom, #FCF113, #FCD004, #FDC70A);
+    border: 4px solid rgb(210, 213, 222);
+    border-radius: 2px;
+    font-size: 14px;
+    font-weight: 550;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    padding: 10px 15px 25px 10px;
+    word-spacing: 4px;
+}
+
+.learn a {
+    text-decoration: none;
+    color: black;
+}
+
+/* footer */
+
+.foot {
+    width: 100%;
+    height: 124px;
+    background-color: rgb(123, 41, 1);
+    display: flex;
+}
+
+.left-foot {
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 40px 0 0 18px;
+}
+
+.left-foot p {
+    font-family: calibri;
+    font-size: 16px;
+    color: rgb(193, 162, 151);
+}
+
+.right-foot {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(123, 41, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.stay {
+    margin-bottom: 8px;
+}
+
+.stay h2 {
+    font-family: calibri;
+    font-weight: 550;
+    font-size: 25px;
+    letter-spacing: 2px;
+    color: rgb(252, 250, 249);
+}
+
+.links {
+    width: 100%;
+}
+
+.links ul {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.links .fa-brands {
+    width: 20px;
+    height: 20px;
+    font-size: 25px;
+    color: white;
+    background-color: #689de8;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.links .fa-facebook-f:hover {
+    transform: rotate(-10deg);
+}
+
+.links .fa-twitter {
+    background-color: #72ABAE;
+}
+
+.links .fa-twitter:hover {
+    transform: scale(1.2);
+}
+
+.links .fa-linkedin-in:hover {
+    transform: skew(-10deg);
+}
+
+.links .fa-google:hover {
+    transform: translateY(-10px);
+}
+
+@media screen and (max-width : 600px) {
+    .header {
+        height: auto;
+        width: 100%;
+        display: block;
+    }
+
+    .left-header {
+        width: 100%;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 11px 0 0 0px;
+    }
+
+    .left-header p {
+        font-family: lucida console;
+        font-size: 20px;
+        color: white;
+        word-spacing: 2px;
+        letter-spacing: 15px;
+        margin-left: 20px;
+    }
+
+    .right-header {
+        width: 100%;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 10px 0 10px 0;
+    }
+
+    .hero-section {
+        height: 393px;
+        box-sizing: border-box;
+        padding: 14px 10px;
+    }
+
+    .scroll-dots {
+        height: 18%;
+        width: 42%;
+        left: 30%;
+        gap: 5px;
+    }
+
+    .dot {
+        height: 32px;
+        width: 32px;
+    }
+
+    .active {
+        border: 6px solid rgb(255, 216, 0);
+    }
+
+    .details-section {
+        height: auto;
+        box-sizing: border-box;
+        padding: 6px 10px 28px;
+    }
+
+    .left-content {
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        padding: 10px 15px 0;
+    }
+
+    .left-content h2 {
+        font-size: 30px;
+    }
+
+    .left-content h2 span {
+        font-size: 48px;
+    }
+
+    .left-content p {
+        font-size: 24px;
+        margin: 10px 0 20px 0;
+        line-height: 1.4;
+        word-spacing: 0px;
+        letter-spacing: 0px;
+    }
+
+    .right-content {
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        padding: 35px 15px 0;
+        position: static;
+    }
+
+    .check-points {
+        box-sizing: border-box;
+        padding-top: 0px;
+    }
+
+    .check-points p {
+        margin: 14px 0 8px 0;
+    }
+
+    .adult {
+        height: 82px;
+    }
+
+    .adult-right {
+        width: 48%;
+        box-sizing: border-box;
+        padding: 20px 12px 10px 0;
+    }
+
+    .adult-right .learn {
+        font-size: 14px;
+        box-sizing: border-box;
+        padding: 0px 0px 0px 0;
+    }
+
+    .left-foot {
+        box-sizing: border-box;
+        padding: 45px 0 0 10px;
+    }
+
+    .left-foot p {
+        font-size: 16px;
+    }
+
+    .stay {
+        margin-bottom: 6px;
+    }
+
+    .stay h2 {
+        font-size: 20px;
+    }
+
+    .links ul {
+        gap: 5px;
+    }
+
+    .links .fa-brands {
+        width: 15px;
+        height: 15px;
+        font-size: 20px;
+    }
+}
