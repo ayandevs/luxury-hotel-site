@@ -379,25 +379,25 @@
     }
 
     .hero-section {
-        height: 393px;
+        height: 300px;
         box-sizing: border-box;
         padding: 14px 10px;
     }
 
     .scroll-dots {
-        height: 18%;
-        width: 42%;
+        height: 17%;
+        width: 34%;
         left: 30%;
         gap: 5px;
     }
 
     .dot {
-        height: 32px;
-        width: 32px;
+        height: 26px;
+        width: 26px;
     }
 
     .active {
-        border: 6px solid rgb(255, 216, 0);
+        border: 4px solid rgb(255, 216, 0);
     }
 
     .details-section {
@@ -457,7 +457,7 @@
     }
 
     .adult-right .learn {
-        font-size: 14px;
+        font-size: 12px;
         box-sizing: border-box;
         padding: 0px 0px 0px 0;
     }
